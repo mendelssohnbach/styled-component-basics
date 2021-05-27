@@ -1,8 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 import Title from './components/Title';
 import Button from './components/Button';
 import ExtendButton from './components/ExtendButton';
+import PolymorphicButton from './components/PolymorphicButton';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Title />
       <Button />
       <ExtendButton />
+      <PolymorphicButton />
     </>
   );
 }
