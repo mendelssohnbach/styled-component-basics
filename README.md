@@ -215,4 +215,15 @@ export default PolymorphicButton;
 
 ## Passed props
 
+> styled-componentsは既知のHTML属性を介してDOMに渡されます。
+
+```js
+return (
+  <div>
+    <Input defaultValue="@probablyup" type="text" />
+    <Input defaultValue="@input your email" type="text" inputColor="darkblue" />
+  </div>
+);
+```
+
 

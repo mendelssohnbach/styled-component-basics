@@ -6,6 +6,7 @@ import ExtendButton from './components/ExtendButton';
 import PolymorphicButton from './components/PolymorphicButton';
 import CustomButton from './components/CustomButton';
 import StyledLink from './components/StyledLink';
+import Input from './components/Input';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <PolymorphicButton />
       <CustomButton />
       <StyledLink />
+      <Input />
     </>
   );
 }
