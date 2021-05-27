@@ -207,3 +207,12 @@ export default PolymorphicButton;
     </div>
 ```
 
+## Styling any component
+
+>スタイル付きメソッドは、渡されたclassNameプロパティをDOM要素にアタッチする限り、独自のコンポーネントまたはサードパーティコンポーネントのすべてで完全に機能します。
+
+説明の意味を理解できない。
+
+## Passed props
+
+

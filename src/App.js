@@ -5,6 +5,7 @@ import Button from './components/Button';
 import ExtendButton from './components/ExtendButton';
 import PolymorphicButton from './components/PolymorphicButton';
 import CustomButton from './components/CustomButton';
+import StyledLink from './components/StyledLink';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ExtendButton />
       <PolymorphicButton />
       <CustomButton />
+      <StyledLink />
     </>
   );
 }
