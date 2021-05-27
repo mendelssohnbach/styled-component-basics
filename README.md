@@ -193,4 +193,17 @@ const PolymorphicButton = () => {
 export default PolymorphicButton;
 ```
 
+カスタムコンポーネントにもスタイルが継承される。
+
+```js
+  const ReversedButton = (props) => (
+    <CustomButton {...props} children={props.children.split('').reverse()} />
+  );
+
+  return (
+    <div>
+      <CustomButton>Normal Button</CustomButton>
+      <CustomButton as={ReversedButton}>Custom Button with Normal Button styles</CustomButton>
+    </div>
+```
 
