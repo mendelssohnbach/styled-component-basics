@@ -65,4 +65,10 @@ const Title = () => {
 export default Title;
 ```
 
+```html
+<section class="sc-hKFxyN eBYiVx">
+  <h1 class="sc-dlnjwi kCeFAH">Hello World!</h1>
+</section>
+```
+
 
