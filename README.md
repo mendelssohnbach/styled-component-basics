@@ -236,3 +236,33 @@ return (
 </StyledCounter>
 ```
 
+## outside of the render method
+
+> レンダーメソッドの外部でスタイル設定されたコンポーネントを定義することが重要です。そうしないと、すべてのレンダーパスで再レンダリングされます。
+
+推奨される書き方
+
+```js
+const StyledWrapper = styled.div`
+  /* ... */
+`
+
+const Wrapper = ({ message }) => {
+  return <StyledWrapper>{message}</StyledWrapper>
+}
+```
+
+使うな！書くな！！危険！！！
+
+```js
+const Wrapper = ({ message }) => {
+  // WARNING: THIS IS VERY VERY BAD AND SLOW, DO NOT DO THIS!!!
+  const StyledWrapper = styled.div`
+    /* ... */
+  `
+
+  return <StyledWrapper>{message}</StyledWrapper>
+```
+
+
+
