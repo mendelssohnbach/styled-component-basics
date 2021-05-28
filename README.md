@@ -226,4 +226,13 @@ return (
 );
 ```
 
+> スタイル付きコンポーネントは要素とそれをスタイル設定するルールの組み合わせであるため、次のように`Counter`を記述します。
+
+```js
+<StyledCounter>
+  <Paragraph>{this.state.count}</Paragraph>
+  <Button onClick={this.increment}>+</Button>
+  <Button onClick={this.decrement}>-</Button>
+</StyledCounter>
+```
 
